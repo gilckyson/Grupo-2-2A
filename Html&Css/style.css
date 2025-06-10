@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+html {
+    font-size: 16px;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #cecece, #ffffff);
+    background-color: rgb(231, 227, 216);
+    user-select: none;
+    overflow: hidden;
+}
+.card {
+    width: 24rem;
+    height: 31rem;
+    background-color: #fff;
+    border-radius: 10px;
+    border: solid 1px #d6d6d6;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.card-header {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-size: 1.1rem;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: solid 1px #d6d6d6;
+    padding: 1rem;
+}
+.card-header button {
+    background-color: transparent;
+    border: solid 1px #d6d6d6;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer; 
+}
+.card-header button:hover {
+    background-color: #f0f0f0;
+}
+.user-image {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #d6d6d6;
+    margin: 2px;
+}
+.user-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.2rem;
+}
+#Local {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 0.9rem;
+}
+#imgna {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-left: 0.8rem ;
+}
+.price-range {
+    display: flex;
+    margin-left: 3rem;
+    margin-top: 0.2rem;
+    flex-direction: column;
+}
+#num {
+    font-size: 1.9rem;
+    font-weight: bolder
+}
+#sub {
+    font-size: 0.8rem;
+    color: #000000;
+    font-weight: bolder;
+    margin-top: 0.7rem;
+}
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-left: 3.2rem;
+    margin-top: 0.8rem;
+    font-weight: bold;
+}
+.taggreen {
+    background-color: #48bd63;
+    padding: 0.4rem 0.5rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+.tagpurple {
+    background-color: rgb(186, 163, 221);
+    padding: 0.4rem 0.5rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}.tagyellow {
+    background-color: rgb(255, 241, 117);
+    padding: 0.4rem 0.5rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+.description {
+    margin-left: 3.7rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+    color: #000000;
+}
+.user-image2 {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #d6d6d6;
+    margin: 2px;
+}
+.user-info2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.2rem;
+    margin-bottom: 1.rem;
+    border-bottom: solid 1px #d6d6d6;
+}
+#Local2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 0.9rem;
+    margin-bottom: 1.1rem;
+}
+#imgna2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-left: 0.8rem;
+    margin-bottom: 1.1rem;
+}
+.card-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+    gap: 5px;
+    width: 100%;
+}
+.accept{
+    width: 90%;
+    background-color:#000000;
+    color: #fff;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.decline {
+    width: 90%;
+    background-color: transparent;
+    color: #000000;
+    padding: 0.7rem;
+    border: solid 1px #d6d6d6;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.accept:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    background:linear-gradient(to right, black, #242424, black);
+}
+.decline:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+#avaliable:hover {
+    background-color: #f0f0f0;
+    transition: 0.5s;
+}
